@@ -1,0 +1,77 @@
+/*font-family: 'PT Sans', sans-serif;*/
+body{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101;
+}
+/*====header start====*/
+header{
+	background-color: #fcdb00;
+	padding: 10px 0;
+}
+.menu ul li:nth-child(2){
+	margin: 0 70px;
+}
+.menu ul li a{
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101 !important;
+	transition: 0.3s ease;
+}
+.menu ul li a:hover{
+	color: #fff !important;
+}
+/*====Header end====*/
+/*====Slider start====*/
+.slider{
+	background-color: #fcdb00;
+}
+.cust-carousel{
+		padding-bottom: 100px;
+}
+/*indicator*/
+.cust-carousel ol{
+	margin-bottom: 40px;
+}
+.cust-carousel ol li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+/*left-content*/
+.left-content{
+	margin-top: 75px;
+}
+.left-content h1{
+	margin: 0;
+	font-size: 32px;
+	font-weight: 700;
+}
+.left-content h2{
+	margin: 20px 0 25px;
+	font-size: 20px;
+	color: #313841;
+}
+.left-content p{
+	margin: 0;
+	color: #555555;
+}
+.left-content ul{
+	margin-top: 40px;
+}
+.left-content ul li{
+	margin-right: 50px !important;
+}
+.left-content ul li i{
+	font-size: 42px;
+	transition: 0.3s linear;
+}
+.left-content ul li i:hover{
+	color: white;
+	transform: scaleX(-1);
+}
+/*right-content*/
+.right-content{
+	text-align: center;
+	padding-left: 30px;
+}
+/*====Slider end====*/
